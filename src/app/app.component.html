@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  <span>CRUD - Angular</span>
+  <span class="example-spacer"></span>
+  <button mat-button [matMenuTriggerFor]="menu">@Administrador</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Perfil</button>
+    <button mat-menu-item>Sair</button>
+  </mat-menu>
+</mat-toolbar>
+<router-outlet></router-outlet>
